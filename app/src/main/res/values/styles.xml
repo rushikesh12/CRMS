@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="loginbox_style">
+        <item name="android:background">@drawable/loginbox_attribute</item>
+    </style>
+
+    
+    <style name="lpedittext_style">
+        <item name="android:background">@drawable/lpedittext_attribute</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="loginbutton_style">
+        <item name="android:background">@drawable/loginbutton_attribute</item>
+    </style>
+
+    <style name="regedittext_style">
+        <item name="android:background">@drawable/regedittext_attribute</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+    <style name="fpedittext_style">
+        <item name="android:background">@drawable/regedittext_attribute</item>
+    </style>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="100dp"
+    android:background="@drawable/railroad_background"
+    tools:context="com.example.rushikesh.crms.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbox_attribute"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:text="Username:"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/altColor"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            style="@style/lpedittext_style"
+            android:hint="Username/Email-id"
+            tools:ignore="HardcodedText"
+            android:gravity="center"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"
+            android:text="Password:"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/altColor"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            tools:ignore="HardcodedText"
+            android:gravity="center"
+            style="@style/lpedittext_style"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:text="Forgot Password?"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText"
+            android:background="@null"
+            android:textColor="@color/altColor"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/loginbutton_attribute"
+            android:text="Log In"
+            tools:ignore="HardcodedText"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:text="@string/new_user_signup"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:contextClickable="true"
+            android:textColor="@color/altColor"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

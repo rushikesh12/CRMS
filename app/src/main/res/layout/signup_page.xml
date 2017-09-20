@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/firstName"
+            style="@style/regedittext_style"
+            android:hint="First Name"
+            android:layout_marginTop="80dp"
+            android:inputType="text"
+            tools:ignore="HardcodedText"/>
+
+
+        <EditText
+            android:id="@+id/lastName"
+            style="@style/regedittext_style"
+            android:hint="Last Name"
+            android:inputType="text"
+            tools:ignore="HardcodedText"/>
+
+
+        <EditText
+            android:id="@+id/employeeNumber"
+            style="@style/regedittext_style"
+            android:hint="Ticket no / Employee No"
+            android:inputType="number"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/regedittext_style"
+            android:hint="Mobile No"
+            android:inputType="phone"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/regedittext_style"
+            android:hint="Email id"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/branchName"
+            style="@style/regedittext_style"
+            android:hint="Branch Name"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/regedittext_style"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            style="@style/regedittext_style"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/otp"
+            style="@style/regedittext_style"
+            android:hint="OTP"
+            android:inputType="number"
+            tools:ignore="HardcodedText"/>
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/loginbutton_style"
+            android:textColor="@color/textColor"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText"
+            />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="Already a user? Click here!"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText"/>
+    </LinearLayout>
+
+</ScrollView>
